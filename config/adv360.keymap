@@ -48,11 +48,11 @@
 
         keypad {
             bindings = <
-&none   &kp F1       &kp F2         &kp F3                &kp F4                 &kp F5            &trans                                      &kp F6  &kp F7     &kp F8        &kp F9        &kp F10       &kp F11       &kp F12
-&trans  &kp EXCL     &kp AT         &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp GRAVE         &trans                                      &trans  &kp PLUS   &kp N7        &kp N8        &kp N9        &kp SLASH     &trans
-&trans  &kp POUND    &kp DOLLAR     &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp SINGLE_QUOTE  &trans  &trans  &trans      &trans  &trans  &trans  &kp MINUS  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp ASTERISK  &trans
-&trans  &kp PERCENT  &kp AMPERSAND  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp TILDE                         &trans      &trans                  &kp DOT    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp EQUAL     &trans
-&none   &none        &none          &kp LESS_THAN         &kp GREATER_THAN                         &trans  &trans  &trans      &trans  &trans  &kp N0             &none         &none         &none         &none         &none
+&none      &kp F1     &kp F2            &kp F3             &kp F4                &kp F5                 &trans                                      &none   &kp F6     &kp F7        &kp F8        &kp F9        &kp F10       &kp F11
+&kp GRAVE  &kp EXCL   &kp AT            &kp POUND          &kp DOLLAR            &kp PERCENT            &trans                                      &trans  &kp PLUS   &kp N7        &kp N8        &kp N9        &kp SLASH     &kp F12
+&kp TILDE  &kp CARET  &kp AMPS          &kp ASTERISK       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans  &trans  &trans      &trans  &trans  &trans  &kp MINUS  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp ASTERISK  &trans
+&trans     &none      &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE        &kp RIGHT_BRACE                        &trans      &trans                  &kp DOT    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp EQUAL     &trans
+&none      &none      &none             &none              &none                                        &trans  &trans  &trans      &trans  &trans  &kp N0             &none         &none         &none         &none         &none
             >;
         };
 
